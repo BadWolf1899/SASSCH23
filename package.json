@@ -1,0 +1,19 @@
+{
+  "name": "tercerapreentrega",
+  "version": "1.0.0",
+  "description": "TercerapreentregaCH23",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "SASSCH23"
+  },
+  "keywords": [
+    "sass",
+    "ch"
+  ],
+  "author": "Valentina Lopez",
+  "license": "ISC"
+}

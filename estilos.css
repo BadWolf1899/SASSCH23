@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  padding-right: 5% !important;
+  padding-left: 5% !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 10vh !important;
+  font-weight: 800 !important;
+  font-family: sans-serif;
+}
+
+.rotador {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8)) !important;
+}
+
+.section {
+  background-color: rgb(75, 75, 75);
+  color: white;
+  padding: 2.5em;
+  margin: auto;
+}
+
+h2 {
+  font-size: 5vh !important;
+  font-family: sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/*# sourceMappingURL=estilos.css.map */

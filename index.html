@@ -1,0 +1,179 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieCenter</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<meta name="description" content="cine, teatro, peliculas"  >
+  </head>
+<body>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark logo w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand " id="Inicio">
+            <img src="imgs/moviexl.png" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Peliculas"> <img src="icons/cine.svg" width="30"> Películas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Teatro"> <img src="icons/teatro.svg" width="30"> Teatro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#Pop"> <img src="icons/snaks.svg" width="30"> Snacks</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Fin de Navbar -->
+
+
+ <!-- Carrusel -->
+      <div id="carouselExampleCaptions" class="carousel slide rotador w-100" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/elementos.jpg" class="d-block w-100 rotador" >
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Elementos</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/ryf.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Rápido y furioso</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/Sin título.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Spiderman</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- Fin de carusel -->
+
+
+ <!-- Cartelera -->
+    <div class="container-fluid section">
+        <div class="row h-20 animate__bounce">
+        <h2>
+          <img src="icons/cine.svg" width="50">
+          <a id="Peliculas ">Cartelera</a>          
+        </h2>
+      </div>
+        <div  class="row h-30 ">
+          <div  class="peli1 h-30 col-lg-3 col-md-6 col-sm-12 mx-auto">
+            <img src="imgs/elementospstr.webp" height="300" >
+              <p>Elementos</p>          
+          </div>
+          <div  class="peli2 h-30  col-lg-3 col-md-6 col-sm-12 mx-auto">
+          <img src="imgs/flashpstr.jpg" height="300" >
+            <p>Flash</p>
+          </div>
+          <div  class="peli3 h-30 col-lg-3 col-md-6 col-sm-12 mx-auto">
+            <img src="imgs/ryfpstr.webp" height="300">
+            <p>Rápido y furioso</p>
+          </div>
+          <div  class="peli4 h-30 col-lg-3 col-md-6 col-sm-12 mx-auto">
+            <img src="imgs/spidermanpstr.jpg" height="300">
+            <p>Spiderman</p>
+          </div>
+        </div>
+
+        <button type="button" class="  btn btn-dark"><a href="#Inicio">Inicio</a></button>  
+         <!-- Fin de cartelera -->    
+      
+      <!-- Teatro -->
+      <div class="animate__bounce row h-20 ">
+        <h2>
+          <img src="icons/teatro.svg" width="50">
+          <a id="Teatro">Teatro</a>          
+        </h2>
+      </div>
+        <div  class="row h-30 ">
+          <div  class="peli h-30 col-lg-4 col-md-6 col-sm-12 mx-auto">
+            <img src="imgs/padrepablo.jpg" height="300" >
+              <p>Padre Novato</p>          
+          </div>
+          <div  class="peli h-30  col-lg-4 col-md-6 col-sm-12 mx-auto ">
+          <img src="imgs/monologo.jpg" height="300" >
+            <p>El Gran Gustaf</p>
+          </div>
+          <div  class="peli h-30 col-lg-4 col-md-12 col-sm-12 mx-auto">
+            <img src="imgs/Graciela2022.jpg" height="300">
+            <p>¿Adopto pareja o mascota?</p>
+          </div>
+        </div>
+
+        <button type="button" class="  btn btn-dark"><a href="#Inicio">Inicio</a></button>  
+       <!-- Fin de teatro -->
+       <!-- Snacks -->
+       <div class="animate__bounce row h-20 ">
+        <h2>
+          <img src="icons/snaks.svg" width="50">
+          <a id="Pop">Snacks</a>          
+        </h2>
+      </div>
+        <div  class="row h-30 section mx-auto">
+          <div  class="peli h-30 col-lg-6 col-md-6 col-sm-12">
+            <img src="imgs/pop.png" height="300" >
+              <p>Pop</p>          
+          </div>
+          <div  class="peli h-30  col-lg-6 col-md-6 col-sm-12">
+          <img src="imgs/soda.png" height="300" >
+            <p>Refresco</p>
+          </div>
+          <button type="button" class="btn btn-dark"><a href="#Inicio">Inicio</a></button>  
+        </div>
+       <!-- Fin de snacks -->
+
+    <!-- Footer -->
+   <footer class="text-center text-white" style="background-color: #1c2331">
+      <div class="text-center p-3 col-md-12 col-lg-12 col-xl-12 col-xs-12">
+        <h6 class="text-uppercase fw-bold">Movie Center</h6>
+      </div>
+      <div class="col-md-12 col-lg-12 col-xl-12 col-xs-12">
+        <hr/>
+        <p> Punta del este, MA 11300, UY</p>
+        <p> hola@movie.com</p>
+        <p> +598 27108725</p>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <p> © 2023 Copyright: VAMandCO.com</p>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+   </div>
+
+
+
+
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
